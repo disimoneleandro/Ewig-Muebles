@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import '../styles/ContactoPage.css';
 
 const ContactoPage = () => {
   return (
-    <div>
-      <h2>Contacto Page</h2>
+    <div className="div-contactoPage">
+
     </div>
   )
 }
