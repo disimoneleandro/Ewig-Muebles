@@ -8,13 +8,12 @@ import NosotrosPage from './pages/NosotrosPage';
 import ProductosPage from './pages/ProductosPage';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-
 const App = ()=> {
   return (
     <div className="Container">
       <BrowserRouter>
         <Header />
-        <Nav />
+          <Nav />
         <Routes>
             <Route path="/home" element={<HomePage />} />
             <Route path="/contacto" element={<ContactoPage />} />

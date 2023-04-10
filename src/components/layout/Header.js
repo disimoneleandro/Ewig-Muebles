@@ -1,10 +1,11 @@
 import React from 'react';
 import '../../styles/Header.css';
+import logoEwig from '../../imagenes/logoEwig.png';
 
 const Header = () => {
   return (
     <div className="div-header">
-      <h2>Esto es el Header</h2>
+      <img className="img-logo" src={logoEwig} alt="logo"/>
     </div>
   )
 }

@@ -1,3 +1,10 @@
 .div-header{
-    background-color: rgb(122, 160, 45);
+    background-color: #272727;
+    display: flex;
+    justify-content:center;
+}
+
+.img-logo{
+    width:300px;
+    height: 140px;
 }
