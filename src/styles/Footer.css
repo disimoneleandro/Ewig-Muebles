@@ -1,3 +1,37 @@
 .div-footer {
-    background-color:skyblue;
+    background-color:#272727;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.info-footer{
+    color:#fff;
+    padding: 20px;
+}
+
+.p-footer{
+    margin: 5px;
+}
+
+.div-icons{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.icons-social{
+    margin-right: 10px;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.face{
+    color:#3b5998;
+}
+
+.insta{
+border-radius: 50px;
+color: #fff;
+background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+box-shadow: 0px 3px 10px rgba(0,0,0,.25);
 }

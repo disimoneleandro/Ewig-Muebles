@@ -1,0 +1,18 @@
+.img-cards{
+    width: 100%;
+}
+
+.card{
+    margin: 10px;
+    border-radius: 0px;
+    height: 100vh;
+}
+
+.card-body{
+    background-color:#6b6b6b;
+    border-radius: 0 0 5px 5px;
+}
+
+.card-text{
+    color: rgb(224, 224, 224);
+}

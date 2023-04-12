@@ -1,27 +1,13 @@
 import React from 'react';
 import '../styles/HomePage.css';
+import Tarjetas from '../components/Tarjetas';
 
 const HomePage = () => {
   return (
     <div className="div-home-page">
-      <h2>Esta es la home</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adip</p>
-      <h2>Esta es la home</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adip</p>
-      <h2>Esta es la home</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adip</p>
-        <h2>Esta es la home</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adip</p>
-      <h2>Esta es la home</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adip</p>
-      <h2>Esta es la home</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adip</p>
-        <h2>Esta es la home</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adip</p>
-      <h2>Esta es la home</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adip</p>
-      <h2>Esta es la home</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adip</p>
+      <div className="container-right">
+        <Tarjetas />
+      </div>
     </div>
   )
 }

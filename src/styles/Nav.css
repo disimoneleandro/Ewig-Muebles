@@ -1,8 +1,8 @@
 .div-nav{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    background-color: #525252;
+    justify-content: center;
+    background-color: #8d8c8c;
 }
 
 .lista-nav{
@@ -17,7 +17,7 @@
     font-size: 19px;
     margin-top: 15px ;
     font-family: krub;
-    margin: 45px;
+    margin: 15px;
     padding:10px;
     border-radius: 5px;
     border: 1px solid rgb(52, 50, 50);
