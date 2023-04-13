@@ -1,13 +1,13 @@
 
 
 body {
-  margin: 0;
-  font-family: 'Fraunces', serif;
+  	margin: 0;
+  	font-family: 'Fraunces', serif;
 	font-family: 'Krub', sans-serif;
 	font-family: 'Roboto Flex', sans-serif;
 	font-family: 'Roboto Serif', serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  	-webkit-font-smoothing: antialiased;
+  	-moz-osx-font-smoothing: grayscale;
 }
 
 code {

@@ -29,3 +29,11 @@
     transition: all .3s;
     color: rgb(35, 35, 35);
 }
+
+@media (max-width:600px) {
+    .btn-nav{
+        font-size: 15px;
+        margin: 10px;
+    }
+
+}

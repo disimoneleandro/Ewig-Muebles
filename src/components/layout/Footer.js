@@ -7,8 +7,8 @@ const Footer = () => {
   return (
     <div className="div-footer">
       <div className="info-footer">
-        <p className="p-footer">estilo.industrial.ewig@gmail.com</p>
-        <p className="p-footer">Funes, Argentina</p>
+        <p className="p-footer">- estilo.industrial.ewig@gmail.com -</p>
+        <p className="p-footer">- Funes, Argentina -</p>
       </div>
       <div className="div-icons">
         <a href="https://www.facebook.com/Estilo.Industrial.Ewig" target="_blank" rel="noopener noreferrer">
