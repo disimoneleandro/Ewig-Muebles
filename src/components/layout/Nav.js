@@ -11,6 +11,7 @@ const Nav = () => {
           <li><NavLink to="/productos" className="btn-nav">PRODUCTOS</NavLink></li>
           <li><NavLink to="/nosotros" className="btn-nav">NOSOTROS</NavLink></li>
           <li><NavLink to="/contacto" className="btn-nav">CONTACTO</NavLink></li>
+          <li><NavLink to="/novedades" className="btn-nav">NOVEDADES</NavLink></li>
         </ul>
       </div>
   )
