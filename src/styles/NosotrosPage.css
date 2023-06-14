@@ -1,0 +1,27 @@
+.div-nosotros-page{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    background-image: url(../imagenes/fondomadera.jpg);
+    width: 1920px;
+    height:762px;
+}
+
+.div-p{
+    width: 40%;
+}
+
+.p-nosotros{
+    font-size:25px;
+    color: #fff;
+    font-style: italic;
+}
+
+.h2-nosotros{
+    font-size:40px;
+    color: #fff;
+}
+
+.div-tarjetas{
+    display:flex;
+}

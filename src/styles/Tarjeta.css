@@ -15,13 +15,14 @@
 }
 
 .card-body{
-    background-color:#6b6b6b;
+    background-color:#d4c9ae;
     border-radius: 0 0 5px 5px;
     padding-bottom: 100px;
 }
 
 .card-text{
-    color: rgb(224, 224, 224);
+    color: rgb(0, 0, 0);
     font-family: 'Fraunces', serif;
     font-size:18px;
+    font-weight: bold;
 }

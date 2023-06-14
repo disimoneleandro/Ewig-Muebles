@@ -1,0 +1,48 @@
+.card-novedades{
+    width:100%;
+}
+
+.novedades{
+    display: flex;
+    margin: 20px;
+}
+
+.div-novedades-page{
+    background: linear-gradient(rgb(31,31,31),#c6c6c6);
+}
+
+.card-body-novedades{
+    margin: 10px;
+    padding: 10px;
+    width: 550px;
+    background: linear-gradient(172deg, #c5b883, #dd51118a);
+    border-radius: 3px;
+}
+
+.card-img-top{
+    width: 550px !important;
+    height: 125px !important;
+    margin: 10px;
+
+}
+
+.card-title-novedades{
+    padding: 15px;
+    font-size: 25px;
+    border: solid beige;
+}
+
+.card-text-novedades{
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.card-p-novedades{
+    font-size:16px;
+    padding: 15px;
+}
+
+
+
+
