@@ -67,6 +67,11 @@
         border-radius:5px;
     }
 
+    .lista-nav:hover{
+        margin-left: 25%;
+       transition: all 2s;
+    }
+
     .li-item{
         margin-bottom: 20px;
         margin-top: 20px;
