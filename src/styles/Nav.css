@@ -33,6 +33,10 @@
     color: rgb(35, 35, 35);
 }
 
+.btn-showToggle{
+    display: none;
+}
+
 @media (max-width:500px) {
 
     .div-nav{

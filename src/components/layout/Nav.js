@@ -6,7 +6,7 @@ import BurgerBoton from '../BurgerBoton';
 
 const Nav = () => {
 
-  const [show, setShow] = useState(true);
+  const [show, setShow] = useState(false);
 
   const showToggle = () => {
     setShow(!show);
