@@ -1,0 +1,12 @@
+.menu-hamburguesa{
+        display: none;
+    @media (max-width : 500px) {
+        display: flex;
+        font-size:30px;
+        justify-content: flex-start;
+        margin-left: 18px;
+        margin-top: 7px;
+        margin-bottom: 7px;
+        cursor: pointer;
+    }
+}
