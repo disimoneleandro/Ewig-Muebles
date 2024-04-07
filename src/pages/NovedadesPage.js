@@ -21,7 +21,7 @@ const NovedadesPage = (props) => {
   return (
     <div className="div-novedades-page">
         <div className="div-h2-novedades">
-          <h2 className="h2-novedades">Tendencias de nuevas maderas . . . </h2>
+          <h2 className="h2-novedades">Proximamente . . . </h2>
         </div>
         <div className="div-tarjetas">
           {loading ? (

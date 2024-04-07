@@ -1,0 +1,7 @@
+.productos-container{
+    display:flex;
+}
+.card-productos{
+    border: solid tomato 4px;
+    margin: 10px;
+}
