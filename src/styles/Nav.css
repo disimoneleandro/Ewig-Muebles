@@ -56,34 +56,40 @@
     }
 
     .lista-nav{
+        display: none;
+    }
+
+    .isActive{
         display: flex;
         flex-direction: column;
+        background-color: rgb(216, 171, 116);
         list-style: none;
         margin-top: 15px;
         margin-bottom: 15px;
-        margin-left: -30px;
-        background-color: #fbd37dc3;
-        width: 50%;
+        width: 100%;
         border-radius:5px;
+        transition: all 1s ease;
     }
 
-    .lista-nav:hover{
-        margin-left: 25%;
-       transition: all 2s;
-    }
 
     .li-item{
-        margin-bottom: 20px;
-        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        width: 37%;
     }
 
     .btn-nav{
-        background-color:#272727;
+        display: flex;
+        justify-content: center;
+        background-color: #272727;
         color: #bbbbbb;
+        font-weight: bold;
         font-size: 15px;
         font-family: krub;
         border-radius: 2px;
         border: 1px solid rgb(52, 50, 50);
         text-decoration: none;
+        width: 120px;
+        
     }
 }

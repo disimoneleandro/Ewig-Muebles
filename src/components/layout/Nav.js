@@ -6,7 +6,7 @@ import BurgerBoton from '../BurgerBoton';
 
 const Nav = () => {
 
-  const [show, setShow] = useState(true);
+  const [show, setShow] = useState(false);
 
   const showToggle = () => {
     setShow(!show);
@@ -20,12 +20,12 @@ const Nav = () => {
           <BurgerBoton/>
         </button>
 
-        {show ? <ul className='lista-nav'>
+        <ul className={ `lista-nav ${ show ? "isActive" : " " }` }>
           <li className="li-item"><NavLink to="/" className="btn-nav">HOME</NavLink></li>
           <li className="li-item"><NavLink to="/productos" className="btn-nav">PRODUCTOS</NavLink></li>
           <li className="li-item"><NavLink to="/contacto" className="btn-nav">CONTACTO</NavLink></li>
           <li className="li-item"><NavLink to="/novedades" className="btn-nav">NOVEDADES</NavLink></li>
-        </ul> : null}
+        </ul>
 
       </div>
   )
