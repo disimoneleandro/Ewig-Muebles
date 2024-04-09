@@ -1,6 +1,7 @@
 .div-footer {
-    background-color:#272727;
+    background-color:#424141;
     display: flex;
+    flex-direction: column;
     justify-content:space-evenly;
 }
 
@@ -17,6 +18,7 @@
 
 .div-icons{
     display: flex;
+    background-color: #272727;
     justify-content: space-around;
     font-size: 20px;
 }
@@ -29,10 +31,13 @@
 
 .face{
     color:#3b5998;
+    font-size: 35px;
+    padding-bottom: 25px;
 }
 
 .insta{
 border-radius: 50px;
+font-size: 35px;
 color: #fff;
 background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
 box-shadow: 0px 3px 10px rgba(0,0,0,.25);

@@ -44,12 +44,14 @@
         flex-direction: column;
         justify-content: flex-start;
         margin-left: 0;
+        background: #b7b5b5;
     }
 
     .btn-showToggle{
         display: flex;
-        background: #8d8c8c;
+        background: #b7b5b5;
         border: none;
+        padding: 0;
     }
 
     .lista-nav{
@@ -57,22 +59,23 @@
         flex-direction: column;
         height: 0;
         overflow: hidden;
-        background-color: rgb(216, 171, 116);
-        list-style: none;
+        background: linear-gradient(90deg, rgba(212,201,174,1) 0%, rgba(152,143,121,1) 30%, rgba(131,117,81,1) 57%, rgba(79,64,28,1) 100%);
         margin-top: 15px;
         margin-bottom: 15px;
+        padding: 0;
         transition: all 1s ease;
     }
 
     .isActive{
-        height: 18.7rem;
+        height: 18rem;
+        padding-top: 15px;
     }
 
 
     .li-item{
         display: flex;
         justify-content: center;
-        width: 37%;
+        width: 45%;
     }
 
     .btn-nav{
@@ -87,6 +90,6 @@
         border: 1px solid rgb(52, 50, 50);
         text-decoration: none;
         width: 120px;
-        
+        margin: 10px;
     }
 }
